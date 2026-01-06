@@ -1,23 +1,26 @@
-# SQL Data Analysis Project
+# Customer Support Ticket Analytics (SQL)
 
 ## Objective
-Use SQL to analyze business data and answer common reporting questions.
+Design a relational database and analyze customer support tickets to understand workload, priorities, and agent performance.
 
 ## Dataset
-Public business dataset containing customers, orders, and products.
+Synthetic customer support data created using SQL, including customers, agents, and tickets.
 
 ## Tools Used
 - MySQL
-- SQL (JOIN, GROUP BY, WHERE, subqueries)
+- SQL (CREATE TABLE, JOIN, GROUP BY, constraints)
+
+## Database Design
+- Customers table
+- Agents table
+- Tickets table with foreign key relationships
 
 ## Analysis Performed
-- Total revenue by month
-- Top products by sales
-- Repeat customers
-- Average order value
-- Country-wise revenue breakdown
+- List of open support tickets with customer and agent details
+- Number of open tickets per agent
+- Ticket count by priority level
 
 ## Key Learnings
-- Writing multi-table JOIN queries
-- Using GROUP BY for aggregation
-- Translating business questions into SQL queries
+- Designing relational schemas with primary and foreign keys
+- Writing JOIN queries across multiple tables
+- Aggregating data for operational reporting
